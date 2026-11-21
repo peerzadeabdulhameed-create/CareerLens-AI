@@ -1,0 +1,47 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+.pytest_cache/
+.coverage
+
+# Data files
+*.csv
+!data/demo_jobs.csv
+!data/processed/jobs_clean.csv
+# Environment and secrets
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python cache
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Runtime logs
+*.log
+streamlit-run.err.log
+streamlit-run.out.log
+# Local application database
+database/careerLens.db
